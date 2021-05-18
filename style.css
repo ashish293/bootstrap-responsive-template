@@ -1,0 +1,98 @@
+.blue {
+	background: blue;
+}
+.orange {
+	background: orange;
+}
+.purple {
+	background: purple;
+}
+.pink {
+	background: pink;
+}
+.green {
+	background: green;
+}
+.grey {
+	background: grey;
+}
+
+header {
+	background: #f0932b;
+	color: white;
+}
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li {
+	display: inline-block;
+}
+#menu a {
+	color: #30336b;
+	color: white;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+}
+#menu a:hover {
+	background: #d17e1f;
+}
+.hero {
+	background: url(images/banner.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.feature i.fas {
+	font-size: 5rem;
+	color: orange;
+	margin: 2rem;
+}
+.testimonial {
+	color: white;
+	background: url(images/testimonial.jpg) center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/* position: relative; */
+}
+/* .testimonial::before {
+	content: " ";
+	top: 0;
+	background: rgb(136, 136, 136, 0.3);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+} */
+
+.recent-news .col-md-3,
+.footer-visit .col-md-4 {
+	margin-top: 2rem;
+}
+.recent-news .news-heading {
+	color: orange;
+}
+.recent-news img {
+	border-radius: 24px;
+	margin-bottom: 10px;
+}
+
+.recent-news .col-md-3 a {
+	color: orange;
+}
+
+.footer-visit {
+	background: #272d7a;
+	color: white;
+}
+footer {
+	background-color: #1e3799;
+	color: white;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+}
+footer a i {
+	margin-right: 8px;
+}
